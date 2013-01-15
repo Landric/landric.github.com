@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html xmlns:og="http://ogp.me/ns#">
+	<head>
+		<base href="http://tomblount.co.uk/we-must-dissent/index.html"/>
+		<meta charset="UTF-8" />
+		<title>{% if page.title %}{{page.title}} - We Must Dissent{% else %}We Must Dissent - A Sci-Fi RPG{% endif %}</title>
+		<meta property="og:title" content="We Must Dissent - A Sci-Fi RPG" />
+		<meta property="og:description" content="This webpage hosts the story behind the game 'We Must Dissent'" />
+		<link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon">
+		
+		<!-- **** Bootstrap Styles **** -->  
+		<link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css" >
+		<style type="text/css">
+			body 
+			{
+				padding-top: 60px;
+			}
+		</style>
+		<link rel="stylesheet" href="/static/bootstrap/css/bootstrap-responsive.css" type="text/css">
+		
+		{% if page.css %}
+			<!-- **** Additional Styles **** -->  
+			{{page.css}}
+		{% endif %}
+		
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<!-- Navbar
+		================================================== -->
+		<div class="navbar navbar-fixed-top navbar-inverse">
+			<div class="navbar-inner">
+				<div class="container">
+					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="brand" href="index.html">We Must Dissent</a>
+					
+					<div class="nav-collapse collapse">
+						<ul class="nav">
+							<li class="dropdown {{page.nav-factions}}"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Factions<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li class="{{page.nav-factions-auroras-children}}"><a href="factions/threat-reports/auroras-children.html">Aurora's Children</a></li>
+									<li class="{{page.nav-factions-cult-of-the-serene}}"><a href="factions/threat-reports/cult-of-the-serene.html">Cult of the Serene</a></li>
+									<li class="{{page.nav-factions-freehaven}}"><a href="factions/threat-reports/freehaven.html">Freehaven</a></li>
+									<li class="{{page.nav-factions-sons-of-artorius}}"><a href="factions/threat-reports/sons-of-artorius.html">Sons of Artorius</a></li>
+									<li class="{{page.nav-factions-the-arcminds}}"><a href="factions/threat-reports/the-arcminds.html">The Arcminds</a></li>
+									<li class="{{page.nav-factions-the-breakers}}"><a href="factions/threat-reports/the-breakers.html">The Breakers</a></li>
+									<li class="{{page.nav-factions-the-community}}"><a href="factions/threat-reports/the-community.html">The Community</a></li>
+									<li class="{{page.nav-factions-the-suboptimals}}"><a href="factions/threat-reports/the-suboptimals.html">The Suboptimals</a></li>
+								</ul>
+							</li>
+
+							<li class="dropdown {{page.nav-tech}}"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li class="{{page.nav-tech-infrastructure}}"><a href="tech/infrastructure.html">Infrastructure</a></li>
+									<li class="{{page.nav-tech-biotech}}"><a href="tech/biotech.html">BioTech</a></li>
+									<li class="{{page.nav-tech-vehicles}}"><a href="tech/vehicles.html">Vehicles</a></li>
+									<li class="{{page.nav-tech-weapons}}"><a href="tech/weapons.html">Weapons</a></li>
+									<li class="{{page.nav-tech-robotics}}"><a href="tech/robotics.html">Robotics</a></li>
+								</ul>
+							</li>
+							
+							<li class="dropdown {{page.nav-ecology}}"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Planet &amp; Ecology<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li class="{{page.nav-ecology-rivis}}"><a href="ecology/rivis-system.html">The Rivis-490 System</a></li>
+									<li class="{{page.nav-ecology-aurora}}"><a href="ecology/aurora.html">Aurora</a></li>
+									<li class="{{page.nav-ecology-flora}}"><a href="ecology/flora.html">Flora</a></li>
+									<li class="{{page.nav-ecology-fauna}}"><a href="ecology/fauna.html">Fauna</a></li>
+								</ul>
+							</li>
+							
+							<li class="dropdown {{page.nav-history}}"><a href="#" class="dropdown-toggle" data-toggle="dropdown">History<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li class="{{page.nav-history-pre}}"><a href="history/pre-exodus.html">Pre-Exodus</a></li>
+									<li class="{{page.nav-history-exo}}"><a href="history/exodus.html">The Earth Exodus</a></li>
+									<li class="{{page.nav-history-post}}"><a href="history/post-exodus.html">Post-Exodus</a></li>
+									<li class="{{page.nav-history-timeline}}"><a href="history/timeline.html">Timeline</a></li>
+								</ul>
+							</li>
+							
+							<li class="dropdown {{page.nav-how-to}}"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Rules &amp; How to Play<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li class="{{page.nav-how-to-setup}}"><a href="how-to/setup.html">Setting Up</a></li>
+									<li class="{{page.nav-how-to-admin}}"><a href="how-to/admin.html">Colony Administration</a></li>
+									<li class="{{page.nav-how-to-interact}}"><a href="how-to/interact.html">Interaction With Other Players</a></li>
+									<li class="{{page.nav-how-to-system}}"><a href="how-to/system.html">The Game System</a></li>
+								</ul>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Navbar
+		============================================================================-->
+
+		<!-- Content
+		================================================== -->
+		<div id="site_content">
+			<div class="container" id="content">
+				{{content}}
+			</div>
+		</div>
+		<!-- End Content
+		============================================================================-->
+    
+		<!-- Footer
+		================================================== -->
+		<hr>
+		<div class="container">
+			<div class="span12 pagination-centered">
+				<footer>
+					  <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_GB"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a> | Copyright &copy; 2012 <a href="/index.html">Tom Blount</a> &amp; <a href="http://www.worldinabottle.co.uk/blog/">Lewis Reading</a> | Built with <a target="_blank" href="http://getbootstrap.com">Bootstrap</a> | Lost? Check the <a href="site-map.html">site map</a></p>
+				</footer>
+			</div>
+		</div>
+		 <!-- End Footer
+		============================================================================-->
+  
+		<!-- Javascript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script type="text/javascript" src="/static/js/jquery.js"></script>
+		<script type="text/javascript" src="/static/bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>
+
