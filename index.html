@@ -1,49 +1,434 @@
----
-layout: default
----
-<div class="hero-unit">
-	<h1>Tom Blount</h1>
-	<br/>
-	<div class="row">
-		<div class="span2">
-			<img class="thumbnail" src="static/images/munich.jpg"/>
-		</div>
-		<div class="span6">
-			<p>Hi, I'm Tom - I'm currently a Computer Science postgraduate at the University of Southampton. Currently my work centres around modelling social argumentation on the web, but I'm also interested in the areas of narrative and game design.</p>
-		</div>
-	</div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="row">
-	<div class="span3">
-		<h3>Biography</h3>
-		<p>Find out a little more about who I am and where I'm from</p>
-	</div>
-	<div class="span3">
-		<h3>Research</h3>
-		<p>Take a deeper look at my field of research</p>
-	</div>
-	<div class="span3">
-		<h3>Gallery</h3>
-		<p>Take a look at some of the projects I've worked on</p>
-	</div>
-	<div class="span3">
-		<h3>Contact Me</h3>
-		<p>Find out how to get in touch</p>
-	</div>
-</div>
+  <head>
 
-<div class="row">
-	<div class="span3">
-		<p><a class="btn btn-large" href="biography.html">View details &raquo;</a></p>
-	</div>
-	<div class="span3">
-		<p><a class="btn btn-large" href="research.html">View details &raquo;</a></p>
-	</div>
-	<div class="span3">
-		<p><a class="btn btn-large" href="gallery.html">View details &raquo;</a></p>
-	</div>
-	<div class="span3">
-		<p><a class="btn btn-large" href="contact.html">View details &raquo;</a></p>
-	</div>
-</div>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>Dr. Tom Blount</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#research">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Project Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#cv" subnav="cv-nav">CV</a>
+            <!--
+            <ul class="navbar-nav" id="cv-nav" style="display:none">
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger subnav" href="#cv-education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger subnav" href="#cv-experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger subnav" href="#cv-skills">Skills</a>
+              </li>
+            </ul>
+            -->
+          </li>
+        </ul>
+      </div>      
+    </nav>
+
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Dr. Tom <span class="text-primary">Blount</span></h1>
+          <div class="subheading mb-5">
+            Research Fellow, Web and Internet Science, University of Southampton<br/>
+            <a href="mailto:tom@tomblount.co.uk">tom@tomblount.co.uk</a>
+          </div>
+          <p>I am a post-doctoral researcher working in the <a href="https://www.wais.ecs.soton.ac.uk/" target="_blank">Web and Internet Science</a> group at the <a href="https://www.southampton.ac.uk/" target="_blank">University of Southampton</a>. My research interests cover game design, narrative systems, gamification, crowdsourcing, and social argumentation.</p>
+          <p>In my free time I enjoy game development, boardgames, and creating and recording Let's Play videos.</p>
+
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="https://facebook.com/tmblount" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/tom_blount" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/tom-blount" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/landric" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="research">
+        <div class="my-auto">
+          <h2 class="mb-5">Research</h2>
+          <p>My PhD work focused on examining how people argue on the world wide web, particularly on different types of social media. There has been a lot of work done in the areas of formal and logical argumentation in the past; however, it doesn't always value the types of social (or anti-social) argument prevalent on the social web</p>
+
+          <p>Currently, I am working on a number of <a class="js-scroll-trigger" href="#projects-research">research projects</a>, covering topics such as Human-Data Interaction and crowdsourcing</p><br/>
+
+          <h3>Papers</h3>
+
+          <h4>2016</h4>
+          <ul>
+            <li><strong>Blount, T.</strong>, Millard, D. and Weal, M., An Ontology for Argumentation on the Social Web: Rhetorical Extensions to the AIF, <em>Proceedings of the Sixth International Conference on Computational Models of Argument (COMMA 2016)</em>, Potsdam, Germany [<a target="_blank" href="https://eprints.soton.ac.uk/397662/">Paper</a>]</li>
+            <li><strong>Blount, T.</strong>, Scott, J., and Millard, D., <a class="js-scroll-trigger" href="#projects-programming">Yarncraft</a>: Location Aware Narratives in Virtual Space, <em>Narrative and Hypertext 2016</em>, Halifax, Canada [<a target="_blank" href="http://eprints.soton.ac.uk/397659/1/narrativehypertext2016.pdf">Paper</a>]</li>
+            <li>Rimington, E. and <strong>Blount, T.</strong>, Lore v. representation: Narrative Communication of Power with regard to Gender in League of Legends, <em>Narrative and Hypertext 2016</em>, Halifax, Canada [<a target="_blank" href="http://ceur-ws.org/Vol-1628/nht_paper_1.pdf">Paper</a>]</li>
+          </ul>
+          <h4>2015</h4>
+          <ul>
+            <li><strong>Blount, T.</strong>, Millard, D. and Weal, M., An Investigation into the Use of Logical and Rhetorical Tactics within Eristic Argumentation on the Social Web, <em>26th ACM Conference on Hypertext and Social Media (HT2015)</em>, Guzelyurt, Cyprus [<a target="_blank" href="http://eprints.soton.ac.uk/378050/1/hypertext2015.pdf">Paper</a>] [<a target="_blank" href="/hypertext2015/">Slides</a>]</li>
+            <li><strong>Blount, T.</strong>, Millard, D. and Weal, M., On the Role of Avatars in Argumentation, <em>Narrative and Hypertext 2015</em>, Guzelyurt, Cyprus [<a target="_blank" href="http://eprints.soton.ac.uk/379679/1/narrativehypertext2015.pdf">Paper</a>] [<a target="_blank" href="/NHT15/">Slides</a>]</li>
+          </ul>
+          <h4>2014</h4>
+          <ul>
+            <li><strong>Blount, T.</strong>, Millard, D. and Weal, M., Towards Modelling Dialectic and Eristic Argumentation on the Social Web, <em>14th Workshop on Computational Models of Natural Argument</em>, Krakow, Poland [<a target="_blank" href="http://cmna.csc.liv.ac.uk//CMNA14/Blount.pdf">Paper</a>] [<a target="_blank" href="/argumentation-social-web/">Slides</a>]</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+        <h2 class="mb-5">Project Gallery</h2>
+
+        <section>
+          <div class="row">
+            <h3 id="projects-research">Research Projects</h3>
+          </div>
+          <div class="row text-center">          
+            <div class="col-3">
+              <a href="http://qrowd-project.eu/" target="_blank"><img class="img-thumbnail img-fluid img-profile rounded-circle mx-auto mb-2 d-block" src="img/projects/research/qrowd.png" alt=""></a>
+              <h4 class="text-center"><a href="http://qrowd-project.eu/" target="_blank">QROWD</a></h4>
+              <p>Fostering data driven innovation in European cities</p>
+            </div>
+            <div class="col-3">
+              <a href="http://datastories.co.uk" target="_blank"><img class="img-thumbnail img-fluid img-profile rounded-circle mx-auto mb-2 d-block" src="img/projects/research/datastories.png" alt=""></a>
+              <h4 class="text-center"><a href="http://datastories.co.uk" target="_blank">Data Stories</a></h4>
+              <p>Engaging with data in a post-truth environment</p>
+            </div>
+            <div class="col-3">
+              <a href="https://twitter.com/TheyBuyForYou" target="_blank"><img class="img-thumbnail img-fluid img-profile rounded-circle mx-auto mb-2 d-block" src="img/projects/research/tbfy.png" alt=""></a>
+              <h4 class="text-center"><a href="https://twitter.com/TheyBuyForYou" target="_blank">They Buy For You</a></h4>
+              <p>Developing smart data solutions for procurement analytics</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-secondary">
+          <div class="row">
+            <h3>Games</h3>
+          </div>
+          <div class="row text-center">          
+            <div class="col-3">
+              <a href="http://sotonopoly.appspot.com" target="_blank"><img class="img-thumbnail img-fluid img-profile rounded-circle mx-auto mb-2 d-block" src="img/projects/games/sotonopoly.jpg" alt=""></a>
+              <h4 class="text-center"><a href="http://sotonopoly.appspot.com" target="_blank">Sotonopoly</a></h4>
+              <p>A Southampton-themed take on the classic game, Monopoly</p>
+            </div>
+            <div class="col-3">
+              <a target="_blank"><img class="img-thumbnail img-fluid img-profile rounded-circle mx-auto mb-2 d-block" src="img/projects/games/clicker.jpg" alt=""></a>
+              <h4 class="text-center"><a target="_blank">Clickademia</a></h4>
+              <p>A clicker-game about life in academia</p>
+            </div>
+            <div class="col-3">
+              <a target="_blank"><img class="img-thumbnail img-fluid img-profile rounded-circle mx-auto mb-2 d-block" src="img/projects/games/guess.png" alt=""></a>
+              <h4 class="text-center"><a target="_blank">Guess Data?</a></h4>
+              <p>A take on the classic game "Guess Who?" using real-world open data</p>
+            </div>
+            <div class="col-3">
+              <a target="_blank"><img class="img-thumbnail img-fluid img-profile rounded-circle mx-auto mb-2 d-block" src="img/projects/games/bar.png" alt=""></a>
+              <h4 class="text-center"><a target="_blank">Bar Chart Ball</a></h4>
+              <p>A data-game based on the work of <a href="http://julian.togelius.com" target="_blank">Julian Togelius</a> (<a href="http://julian.togelius.com/barchartball/BarChartBall.html" target="_blank">play the original here</a>)</p>
+            </div>
+          </div>
+          <div class="row text-center">          
+            <div class="col-3">
+              <a target="_blank"><img class="img-thumbnail img-fluid img-profile rounded-circle mx-auto mb-2 d-block" src="img/projects/games/tower.png" alt=""></a>
+              <h4 class="text-center"><a target="_blank">Terran Defence</a></h4>
+              <p>A tower defence game, where the focus is on destructible (and constructable) terrain</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="row">
+            <h3 id="projects-programming">Programming</h3>
+          </div>
+          <div class="row text-center">
+            <div class="col-3 ">
+              <a href="https://github.com/jscott1989/Yarncraft/" target="_blank"><img class="img-thumbnail img-fluid img-profile rounded-circle mx-auto mb-2 d-block" src="img/projects/programming/yarncraft.png" alt=""></a>
+              <h4 class="text-center"><a href="https://github.com/jscott1989/Yarncraft/" target="_blank">Yarncraft</a></h4>
+              <p>A system for creating location-aware narratives in virtual space - in this case, Minecraft</p>
+            </div>
+            <div class="col-3 ">
+              <a target="_blank"><img class="img-thumbnail img-fluid img-profile rounded-circle mx-auto mb-2 d-block" src="img/projects/programming/fractal.png" alt=""></a>
+              <h4 class="text-center"><a target="_blank">Fractal Narratives</a></h4>
+              <p>Fractal Narratives are built by inserting story between existing story fragments, creating a potentially infinitely complex narrative</p>
+            </div>      
+            <div class="col-3">
+              <a href="https://github.com/Landric/rpg-tools" target="_blank"><img class="img-thumbnail img-fluid img-profile rounded-circle mx-auto mb-2 d-block" src="img/projects/programming/rpg.jpg" alt=""></a>
+              <h4 class="text-center"><a href="https://github.com/Landric/rpg-tools" target="_blank">RPG Tools</a></h4>
+              <p>A collection of digital tools such as dice-rollers and name-generators, for playing tabletop RPGs</p>
+            </div>
+            <div class="col-3">
+              <a href="https://github.com/Landric/StegTools" target="_blank"><img class="img-thumbnail img-fluid img-profile rounded-circle mx-auto mb-2 d-block" src="img/projects/programming/steg.jpg" alt=""></a>
+              <h4 class="text-center"><a href="https://github.com/Landric/StegTools" target="_blank">Steg. Tools</a></h4>
+              <p>For an undergrad project I developed a set of tools for  <a href="https://en.wikipedia.org/wiki/Steganography">steganography</a> - the art of hiding messages in plain sight</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-secondary">
+          <div class="row">
+            <h3>Video</h3>
+          </div>
+          <div class="row text-center">          
+            <div class="col-3">
+              <a href="https://www.youtube.com/channel/UCEyOLMucKLk5dbGNgB0FemQ" target="_blank"><img class="img-thumbnail img-fluid img-profile rounded-circle mx-auto mb-2 d-block" src="img/projects/video/youtube.png" alt=""></a>
+              <h4 class="text-center"><a href="https://www.youtube.com/channel/UCEyOLMucKLk5dbGNgB0FemQ" target="_blank">YouTube</a></h4>
+              <p>A series of talks, seminars and presentations of my research</p>
+            </div>
+            <div class="col-3">
+              <a href="https://www.youtube.com/channel/UCxCI0qfVCmQnZfDCHIJL3RQ" target="_blank"><img class="img-thumbnail img-fluid img-profile rounded-circle mx-auto mb-2 d-block" src="img/projects/video/landric-plays.png" alt=""></a>
+              <h4 class="text-center"><a href="https://www.youtube.com/channel/UCxCI0qfVCmQnZfDCHIJL3RQ" target="_blank">Landric Plays</a></h4>
+              <p>My Let's Play channel, featuring a range of strategy and simulation games</p>
+            </div>
+            <div class="col-3">
+              <a href="https://www.youtube.com/channel/UCO6F5i0i_QyW0TPuxyuIQrw" target="_blank"><img class="img-thumbnail img-fluid img-profile rounded-circle mx-auto mb-2 d-block" src="img/projects/video/comp3218.jpg" alt=""></a>
+              <h4 class="text-center"><a href="https://www.youtube.com/channel/UCO6F5i0i_QyW0TPuxyuIQrw" target="_blank">COMP3218</a></h4>
+              <p>To provide feedback for Game Design &amp; Development students, we play their games and talk about them</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="row">
+            <h3>Writing</h3>
+          </div>
+          <div class="row text-center">  
+            <div class="col-3">
+              <a href="/we-must-dissent" target="_blank"><img class="img-thumbnail img-fluid img-profile rounded-circle mx-auto mb-2 d-block" src="img/projects/writing/dissent.jpg" alt=""></a>
+              <h4 class="text-center"><a href="/we-must-dissent" target="_blank">We Must Dissent</a></h4>
+              <p>A sci-fi tale of a colony lost on an alien world, written with Lewis Reading</p>
+            </div>
+            <div class="col-3">
+              <a href="http://www.philome.la/Tom_Blount/prism" target="_blank"><img class="img-thumbnail img-fluid img-profile rounded-circle mx-auto mb-2 d-block" src="img/projects/writing/prism.png" alt=""></a>
+              <h4 class="text-center"><a href="http://www.philome.la/Tom_Blount/prism" target="_blank">Prism</a></h4>
+              <p>A short story about different kinds of love, written with <a href="https://theprose.com/deerdreams" target="_blank">Mea Robertson</a></p>
+            </div>
+            <div class="col-3">
+              <a target="_blank"><img class="img-thumbnail img-fluid img-profile rounded-circle mx-auto mb-2 d-block" src="img/projects/writing/hey.png" alt=""></a>
+              <h4 class="text-center"><a target="_blank">Hey. Are you there?</a></h4>
+              <p>A short story about trying to support a friend</p>
+            </div>
+          </div>
+        </section>
+      </section>
+
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="cv">
+        <div class="my-auto">
+          <h2 class="mb-5">CV</h2>
+
+          <h3 class="mb-3" id="cv-education">Education</h3>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">University of Southampton</h4>
+              <div class="subheading mb-3">PhD Computer Science</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2013 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">University of Southampton</h4>
+              <div class="subheading mb-0">MEng Computer Science</div>
+              <div>1st class</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2009 - July 2013</span>
+            </div>
+          </div>
+
+
+          <h3 class="mb-3" id="cv-experience">Experience</h3>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">Research Fellow</h4>
+              <div class="subheading mb-3">Web and Internet Science Group, University of Southampton</div>
+              <p>I am currently a Research Fellow in the <a href="https://www.wais.ecs.soton.ac.uk/" target="_blank">Web and Internet Science</a> group at the <a href="https://www.southampton.ac.uk/" target="_blank">University of Southampton</a>, working on a number of national and international <a href="#projects-research" class="js-scroll-trigger"> research projects</a>, covering the domains of game design, narrative systems, gamification, and crowdsourcing</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">June 2017 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">Teaching</h4>
+              <div class="subheading mb-3">Multiple Courses, University of Southampton</div>
+              <p>As a postgrad, I demonstrated for a number of undergraduate courses, and I currently teach on both <a href="https://www.southampton.ac.uk/courses/modules/comp6234.page" target="_blank">Data Visualisation (COMP6234)</a> and <a href="https://www.southampton.ac.uk/courses/modules/comp3218.page" target="_blank">Game Design and Development (COMP3218)</a>, giving lectures, assisting in practical lab sessions, setting and marking coursework, and giving feedback to students</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2013 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">Global Game Jam</h4>
+              <div class="subheading mb-3">(Southampton)</div>
+              <p>Since 2015, I've been a part of organising the <a href="https://southamptongamejam.org/" target="_blank">Southampton site</a> of the annual <a href="https://globalgamejam.org/" target="_blank">Global Game Jam</a>, an event in which over 150 people from all over the county come together and (in tandem with people all around the world), try to make a physical or digital game in under 48 hours, on a given theme</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2015 - Present</span>
+            </div>
+          </div>
+
+          <!--
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">Student Demonstrator</h4>
+              <div class="subheading mb-3">Multiple Courses, University of Southampton</div>
+              <p>I performed the role of student demonstrator for a number of undergraduate courses, including first-year programming principles, second-year software engineering group projects and third-year game design and development. My responsibilities included assisting in practical lab sessions, grading assessments, providing feedback to students, managing group projects and giving guest lectures.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2013 - July 2016</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">Project Support Assistant</h4>
+              <div class="subheading mb-3">Web and Internet Science Group, University of Southampton</div>
+              <p>During my second internship at the University of Southampton, I spent the majority of time working on a web-service for creating personalised academic news feeds (PANFeeds). This was developed using the Django web-framework. I also worked on several other projects, including an Android application called GeoYarn, that allows users to experience location-based narratives. I also presented a computer vision library to prospective students at an open day.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">July 2012 - October 2012</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">Webmaster</h4>
+              <div class="subheading mb-3">SUStrings, University of Southampton</div>
+              <p>Throughout my stay at university I have been a member of the Southampton University String Orchestra, and in my third year I took a place on the committee as webmaster. In this position, it was my responsibility to maintain and update the SUStrings website and mailing lists, as well as attending committee meetings to determine and organise, for example, the booking of venues and ticket pricing.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2011 - September 2012</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-0">Project Support Assistant</h4>
+              <div class="subheading mb-3">Web and Internet Science Group, University of Southampton</div>
+              <p>During my first internship at the University of Southampton, I was placed with the development team of a new intranet portal for the university, being constructed with MS Sharepoint. I took on the responsibility of conducting a user survey to assess what students and staff wanted from the portal, then transformed the collected data into a series of Use Cases and User Stories. From these, the building blocks of the system could be constructed. I developed several widgets for use within the system, including an RSS feed for news and important information, and a coursework hand-in tracker.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">July 2011 - October 2011</span>
+            </div>
+          </div>
+          -->
+
+          
+          <h3 class="mb-3" id="cv-skills">Skills</h3>
+          
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-python"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-django"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-unity_small"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-java"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-javascript"></i>
+            </li>
+          </ul>
+          
+
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.js"></script>
+
+  </body>
+
+</html>
